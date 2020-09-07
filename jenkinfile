@@ -1,0 +1,43 @@
+pipeline {
+
+    parameters {
+        string(defaultValue: "/opt/tsom-saas/workspace/feature-branches", description: 'build workspace', name: 'bldworksapce')
+	string(defaultValue: params.branch ?: 'sonar', description: 'feature branch', name: 'branch')
+	string(defaultValue: "smartgraph-java-client", description: 'service name', name: 'service')
+	string(defaultValue: "vl-pun-apm-bl08", description: 'Jenkins Node to build', name: 'node_label')
+
+    }
+    agent {
+	    node {
+		label "${params.node_label}"
+		customWorkspace "${params.bldworksapce}/${params.branch}/${params.service}"
+	    }
+	  }
+    options { disableConcurrentBuilds() }
+    tools {
+        maven 'maven-3.3.9'
+        jdk 'jdk-11'
+    }
+    stages {
+        stage ('Initialize') {
+            steps {
+                sh '''
+                    echo "PATH = ${PATH}"
+                    echo "M2_HOME = ${M2_HOME}"
+		    echo "JAVA_HOME = ${JAVA_HOME}"
+                '''
+            }
+        }
+
+	stage ('Clean') {
+            steps {
+                sh 'mvn -B -f pom.xml clean -Dmaven.repo.local=${WORKSPACE}/../mvn_repo'
+            }
+        }
+		stage ('Compile') {
+            steps {
+                sh 'mvn -B -f pom.xml compile -Dmaven.repo.local=${WORKSPACE}/../mvn_repo'
+            }
+        }
+  }
+}

@@ -1,0 +1,3 @@
+com\bmc\bagdb\ResolverFactory.class
+com\bmc\bagdb\ResolverFactory$INSTANCE_HOLDER.class
+utils\Listeners\MyListener.class

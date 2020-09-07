@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="1" name="TestSuite" time="0.315" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.252.09-hotspot\jre\bin"/>
+    <property name="java.vm.version" value="25.252-b09"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\smartGraph\CodeWithGithub\Automation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\smartGraph\CodeWithGithub\Automation"/>
+    <property name="java.runtime.version" value="1.8.0_252-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.252.09-hotspot\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\vbanachh\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\NewIntellij\IntelliJ IDEA Community Edition 2020.1.1\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\NewIntellij\IntelliJ IDEA Community Edition 2020.1.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.252.09-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python37\Scripts\;C:\Python37\;C:\Program Files\avs\bin;C:\Program Files\avs\bin32;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\;C:\Python37\Scripts\chromedriver_win32;C:\PROGRA~1\BMCSOF~1\Patrol3\bin;C:\Program Files\BMC Software\Patrol3\bin\patrol_x86;C:\Program Files\Perforce\Helix ALM;C:\gradle-6.4\bin;C:\Python27\Scripts\geckoDriver;C:\Program Files\AdoptOpenJDK\jdk-8.0.252.09-hotspot\bin;C:\Program Files\AdoptOpenJDK\jdk-8.0.252.09-hotspot\bin;C:\Program Files\avs\bin;C:\Program Files\avs\bin32;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\;C:\PROGRA~1\BMCSOF~1\Patrol3\bin;C:\Program Files\BMC Software\Patrol3\bin\patrol_x86;C:\Program Files\Perforce\Helix ALM;C:\gradle-6.4\bin;C:\Python27\Scripts\geckoDriver;C:\Users\vbanachh\AppData\Local\Microsoft\WindowsApps;C:\Users\vbanachh\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\Intellij\IntelliJ IDEA Community Edition 2020.1.1\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Python37\;C:\Python37\Scripts;;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\NewIntellij\IntelliJ IDEA Community Edition 2020.1.1\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\vbanachh"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="vbanachh"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\NewIntellij\IntelliJ IDEA Community Edition 2020.1.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\NewIntellij\IntelliJ IDEA Community Edition 2020.1.1\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\NewIntellij\IntelliJ IDEA Community Edition 2020.1.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.252.09-hotspot\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2020.1.1 clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="idea.version2020.1.1" value="true"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_252"/>
+    <property name="java.ext.dirs" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.252.09-hotspot\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.252.09-hotspot\jre\lib\resources.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.252.09-hotspot\jre\lib\rt.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.252.09-hotspot\jre\lib\sunrsasign.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.252.09-hotspot\jre\lib\jsse.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.252.09-hotspot\jre\lib\jce.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.252.09-hotspot\jre\lib\charsets.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.252.09-hotspot\jre\lib\jfr.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.252.09-hotspot\jre\classes"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\NewIntellij\IntelliJ IDEA Community Edition 2020.1.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="NodeImplTest" name="stepIn" time="0.068">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at NodeImplTest.stepIn(NodeImplTest.java:88)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@77468bd9
+13:29:43.095 [main] DEBUG org.jacorb.config - no properties found for configuration jacorb
+13:29:43.100 [main] WARN org.jacorb.orb.singleton - Warning - unknown codeset (Cp1252) - defaulting to ISO-8859-1
+13:29:43.101 [main] DEBUG org.jacorb.orb.singleton - BufferManagerFactory: org.jacorb.orb.DefaultBufferManagerFactory@20398b7c
+13:29:43.101 [main] DEBUG org.jacorb.orb.singleton - BufferManager: org.jacorb.orb.BufferManager@6fc6f14e
+13:29:43.101 [main] DEBUG org.jacorb.orb.singleton - jacorb.interop.strict_check_on_tc_creation set to true
+13:29:43.101 [main] DEBUG org.jacorb.orb.singleton - OMG.ORB classloader (null) does not match JacORB ORBSingleton classloader (sun.misc.Launcher$AppClassLoader@3d4eac69). This may cause problems; see the ProgrammingGuide for further details
+13:29:43.101 [main] DEBUG org.jacorb.config - jacorb.home unset! Will use &apos;.&apos;
+13:29:43.101 [main] DEBUG org.jacorb.orb - BufferManagerFactory: org.jacorb.orb.DefaultBufferManagerFactory@56235b8e
+13:29:43.101 [main] DEBUG org.jacorb.orb - BufferManager: org.jacorb.orb.BufferManager@6fc6f14e
+13:29:43.101 [main] DEBUG org.jacorb.orb - jacorb.interop.strict_check_on_tc_creation set to true
+13:29:43.101 [main] WARN org.jacorb.orb - Warning - unknown codeset (Cp1252) - defaulting to ISO-8859-1
+13:29:43.102 [main] DEBUG org.jacorb.poa.controller - RequestProcessorPoolFactory settings: thread_pool_min=5 thread_pool_max=20 thread_pool_shared=false
+13:29:43.103 [main] INFO org.jacorb.orb - Initialising ORB with ID: 
+13:29:43.104 [main] DEBUG org.jacorb.orb - added ORBInitializer: com.bmc.bagdb.AuthenticationInitializer
+13:29:43.108 [main] DEBUG org.jacorb.orb.factory - defaulting to DefaultSocketFactory
+13:29:43.113 [main] DEBUG org.jacorb.orb.giop - Maximum connection threads: 1000
+13:29:43.113 [main] DEBUG org.jacorb.orb.giop - Maximum idle threads: 5
+Authentication init: org.jacorb.orb.ORB@72b6cbcc
+13:29:43.117 [main] DEBUG org.jacorb.orb - Property &quot;jacorb.hashtable_class&quot; is set to: java.util.HashMap
+13:29:43.128 [main] INFO org.jacorb.orb.interceptors - InterceptorManager started with 0 Server Interceptors, 1 Client Interceptors and 1 IOR Interceptors
+13:29:43.131 [main] INFO com.bmc.bagdb.factory.ResolverFactory - Will connect to BagDb host 
+13:29:43.137 [main] DEBUG org.jacorb.orb.giop - created org.omg.ETF.Factories: org.jacorb.orb.iiop.IIOPFactories
+13:29:43.168 [main] INFO org.jacorb.orb.giop - ClientConnectionManager: created new ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.168 [main] DEBUG org.jacorb.util.tpool - [0/0] creating new thread
+13:29:43.168 [ClientMessageReceptor0] DEBUG org.jacorb.util.tpool - [0/1] removed idle thread (job scheduled)
+13:29:43.168 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - ClientGIOPConnection to 10.135.56.57:25020 (64485a47): will wait until connected
+13:29:43.173 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.173 [main] DEBUG org.jacorb.orb.delegate - Adding new retry group for 10.135.56.57:25020
+13:29:43.175 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.175 [main] DEBUG org.jacorb.giop.conn - ClientGIOPConnection to 10.135.56.57:25020 (64485a47): sendMessage() - opening transport org.jacorb.orb.iiop.ClientIIOPConnection@306279ee
+13:29:43.177 [main] DEBUG org.jacorb.orb.factory - created SocketFactory: org.jacorb.orb.factory.DefaultSocketFactory
+13:29:43.177 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - Trying to connect to 10.135.56.57:25020 with timeout=90000.
+13:29:43.189 [main] INFO org.jacorb.orb.iiop.ClientIIOPConnection - Connected to 10.135.56.57:25020 from local port 65325
+13:29:43.190 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 12 bytes to 10.135.56.57:25020
+13:29:43.190 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 36 bytes to 10.135.56.57:25020
+13:29:43.190 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 90 bytes to 10.135.56.57:25020
+13:29:43.190 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 106 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.196 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.196 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 13 bytes from 10.135.56.57:25020
+13:29:43.196 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 25 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.198 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 1 client(s))
+13:29:43.199 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.199 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.199 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 72 bytes to 10.135.56.57:25020
+13:29:43.200 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 72 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.207 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.207 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 282 bytes from 10.135.56.57:25020
+13:29:43.207 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 294 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.207 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 1 client(s))
+13:29:43.211 [main] INFO org.jacorb.orb.giop - ClientConnectionManager: created new ClientGIOPConnection to 10.135.56.57:25000 (6fb0d3ed)
+13:29:43.211 [main] DEBUG org.jacorb.util.tpool - [0/1] creating new thread
+13:29:43.212 [ClientMessageReceptor1] DEBUG org.jacorb.util.tpool - [0/2] removed idle thread (job scheduled)
+13:29:43.212 [ClientMessageReceptor1] DEBUG org.jacorb.giop.conn - ClientGIOPConnection to 10.135.56.57:25000 (6fb0d3ed): will wait until connected
+13:29:43.212 [main] INFO org.jacorb.giop.conn - Negotiated char codeset of UTF8 and wchar of UTF16
+13:29:43.212 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.212 [main] DEBUG org.jacorb.orb.delegate - Adding new retry group for 10.135.56.57:25000
+13:29:43.212 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.212 [main] DEBUG org.jacorb.giop.conn - ClientGIOPConnection to 10.135.56.57:25000 (6fb0d3ed): sendMessage() - opening transport org.jacorb.orb.iiop.ClientIIOPConnection@68ceda24
+13:29:43.212 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - Trying to connect to 10.135.56.57:25000 with timeout=90000.
+13:29:43.220 [main] INFO org.jacorb.orb.iiop.ClientIIOPConnection - Connected to 10.135.56.57:25000 from local port 65326
+13:29:43.220 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 88 bytes to 10.135.56.57:25000
+13:29:43.220 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 24 bytes to 10.135.56.57:25000
+13:29:43.221 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 22 bytes to 10.135.56.57:25000
+13:29:43.221 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 118 to ClientGIOPConnection to 10.135.56.57:25000 (6fb0d3ed)
+13:29:43.229 [ClientMessageReceptor1] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25000
+13:29:43.229 [ClientMessageReceptor1] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 76 bytes from 10.135.56.57:25000
+13:29:43.229 [ClientMessageReceptor1] DEBUG org.jacorb.giop.conn - read GIOP message of size 88 from ClientGIOPConnection to 10.135.56.57:25000 (6fb0d3ed)
+13:29:43.230 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25000 (6fb0d3ed) (still has 1 client(s))
+13:29:43.234 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.234 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.234 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 12 bytes to 10.135.56.57:25020
+13:29:43.234 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 92 bytes to 10.135.56.57:25020
+13:29:43.234 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 40 bytes to 10.135.56.57:25020
+13:29:43.234 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 56 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.240 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.240 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 251 bytes from 10.135.56.57:25020
+13:29:43.240 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 263 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.240 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 1 client(s))
+on start
+13:29:43.359 [main] DEBUG com.bmc.bagdb.repository.BagDB - findRelationshipSet : Partition name :  testPartition11598342383359 and flag : 0
+13:29:43.360 [main] INFO org.jacorb.orb.giop - ClientConnectionManager: found ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.360 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.360 [main] DEBUG org.jacorb.orb.delegate - Adding new retry group for 10.135.56.57:25020
+13:29:43.360 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.360 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 60 bytes to 10.135.56.57:25020
+13:29:43.360 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 84 bytes to 10.135.56.57:25020
+13:29:43.360 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 36 bytes to 10.135.56.57:25020
+13:29:43.360 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 100 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.394 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.394 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 276 bytes from 10.135.56.57:25020
+13:29:43.394 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 288 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.394 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 2 client(s))
+13:29:43.434 [main] DEBUG com.bmc.bagdb.repository.BagDB - findRelationshipSet : Partition name :  testPartition21598342383359 and flag : 0
+13:29:43.434 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.434 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.434 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 60 bytes to 10.135.56.57:25020
+13:29:43.434 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 84 bytes to 10.135.56.57:25020
+13:29:43.434 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 36 bytes to 10.135.56.57:25020
+13:29:43.434 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 100 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.455 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.455 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 276 bytes from 10.135.56.57:25020
+13:29:43.459 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 288 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.460 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 2 client(s))
+13:29:43.460 [main] DEBUG com.bmc.bagdb.repository.BagDB - getStoreByName: Store Name : testPartition11598342383359
+13:29:43.460 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.460 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.460 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 60 bytes to 10.135.56.57:25020
+13:29:43.460 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 84 bytes to 10.135.56.57:25020
+13:29:43.460 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 32 bytes to 10.135.56.57:25020
+13:29:43.460 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 96 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.484 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.484 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 259 bytes from 10.135.56.57:25020
+13:29:43.484 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 271 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.484 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 2 client(s))
+13:29:43.484 [main] DEBUG com.bmc.bagdb.repository.Partition - createNode : creating node with kind test and state
+13:29:43.487 [main] DEBUG com.bmc.bagdb.repository.Partition - key : node and value SourceNode
+13:29:43.487 [main] DEBUG com.bmc.bagdb.repository.Partition - key : temp and value justForupdate
+13:29:43.487 [main] DEBUG com.bmc.bagdb.repository.Partition - key : IP and value localhost
+13:29:43.487 [main] DEBUG com.bmc.bagdb.repository.Partition - key : Host and value 9090
+13:29:43.487 [main] INFO org.jacorb.orb.giop - ClientConnectionManager: found ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.487 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.487 [main] DEBUG org.jacorb.orb.delegate - Adding new retry group for 10.135.56.57:25020
+13:29:43.487 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.487 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 56 bytes to 10.135.56.57:25020
+13:29:43.487 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 80 bytes to 10.135.56.57:25020
+13:29:43.487 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 64 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.494 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.494 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 28 bytes from 10.135.56.57:25020
+13:29:43.494 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 40 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.494 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 3 client(s))
+13:29:43.495 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converting Java Object to any
+13:29:43.495 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converted any type org.omg.CORBA.TCKind@d44fc21
+13:29:43.495 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converting Java Object to any
+13:29:43.495 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converted any type org.omg.CORBA.TCKind@d44fc21
+13:29:43.495 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converting Java Object to any
+13:29:43.495 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converted any type org.omg.CORBA.TCKind@d44fc21
+13:29:43.495 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converting Java Object to any
+13:29:43.495 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converted any type org.omg.CORBA.TCKind@7d0587f1
+13:29:43.495 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.496 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.496 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 60 bytes to 10.135.56.57:25020
+13:29:43.496 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 84 bytes to 10.135.56.57:25020
+13:29:43.496 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 4 bytes to 10.135.56.57:25020
+13:29:43.496 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 68 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.507 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.508 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 8180 bytes from 10.135.56.57:25020
+13:29:43.508 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 8192 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.508 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.517 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 8180 bytes from 10.135.56.57:25020
+13:29:43.517 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 8192 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.517 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.521 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 8180 bytes from 10.135.56.57:25020
+13:29:43.521 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 8192 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.521 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.525 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 8180 bytes from 10.135.56.57:25020
+13:29:43.525 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 8192 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.526 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.537 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 8180 bytes from 10.135.56.57:25020
+13:29:43.537 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 8192 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.537 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.563 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 8180 bytes from 10.135.56.57:25020
+13:29:43.563 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 8192 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.563 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.575 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 8180 bytes from 10.135.56.57:25020
+13:29:43.575 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 8192 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.575 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.580 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 8180 bytes from 10.135.56.57:25020
+13:29:43.580 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 8192 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.580 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.583 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 8180 bytes from 10.135.56.57:25020
+13:29:43.583 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 8192 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.583 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.586 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 8180 bytes from 10.135.56.57:25020
+13:29:43.586 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 8192 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.586 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.590 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 8180 bytes from 10.135.56.57:25020
+13:29:43.590 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 8192 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.590 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.595 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 8180 bytes from 10.135.56.57:25020
+13:29:43.595 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 8192 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.595 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.597 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 8180 bytes from 10.135.56.57:25020
+13:29:43.598 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 8192 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.598 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.601 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 8180 bytes from 10.135.56.57:25020
+13:29:43.601 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 8192 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.601 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.608 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 8180 bytes from 10.135.56.57:25020
+13:29:43.608 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 8192 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.608 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.611 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 8180 bytes from 10.135.56.57:25020
+13:29:43.611 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 8192 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.611 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.615 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 8180 bytes from 10.135.56.57:25020
+13:29:43.616 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 8192 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.616 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.619 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 8180 bytes from 10.135.56.57:25020
+13:29:43.619 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 8192 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.619 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.623 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 8180 bytes from 10.135.56.57:25020
+13:29:43.623 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 8192 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.623 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.623 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 4672 bytes from 10.135.56.57:25020
+13:29:43.623 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 4684 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.623 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 3 client(s))
+13:29:43.631 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.631 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.631 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 52 bytes to 10.135.56.57:25020
+13:29:43.631 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 84 bytes to 10.135.56.57:25020
+13:29:43.631 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 181 bytes to 10.135.56.57:25020
+13:29:43.631 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 237 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.674 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.674 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 18 bytes from 10.135.56.57:25020
+13:29:43.675 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 30 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.675 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 3 client(s))
+13:29:43.678 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.679 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.679 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 56 bytes to 10.135.56.57:25020
+13:29:43.679 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 80 bytes to 10.135.56.57:25020
+13:29:43.679 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 64 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.685 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.685 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 28 bytes from 10.135.56.57:25020
+13:29:43.685 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 40 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.685 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 3 client(s))
+13:29:43.685 [main] DEBUG com.bmc.bagdb.repository.BagDB - getStoreByName: Store Name : testPartition21598342383359
+13:29:43.685 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.686 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.686 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 60 bytes to 10.135.56.57:25020
+13:29:43.686 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 84 bytes to 10.135.56.57:25020
+13:29:43.686 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 32 bytes to 10.135.56.57:25020
+13:29:43.686 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 96 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.691 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.691 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 259 bytes from 10.135.56.57:25020
+13:29:43.691 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 271 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.691 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 3 client(s))
+13:29:43.691 [main] DEBUG com.bmc.bagdb.repository.Partition - createNode : creating node with kind Loggertest and state
+13:29:43.692 [main] DEBUG com.bmc.bagdb.repository.Partition - key : node and value DestinationNode
+13:29:43.692 [main] DEBUG com.bmc.bagdb.repository.Partition - key : temp and value justForupdate
+13:29:43.692 [main] DEBUG com.bmc.bagdb.repository.Partition - key : IP and value localhost
+13:29:43.692 [main] DEBUG com.bmc.bagdb.repository.Partition - key : Host and value 9090
+13:29:43.692 [main] INFO org.jacorb.orb.giop - ClientConnectionManager: found ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.692 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.693 [main] DEBUG org.jacorb.orb.delegate - Adding new retry group for 10.135.56.57:25020
+13:29:43.693 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.693 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 56 bytes to 10.135.56.57:25020
+13:29:43.693 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 80 bytes to 10.135.56.57:25020
+13:29:43.693 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 64 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.700 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.701 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 28 bytes from 10.135.56.57:25020
+13:29:43.701 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 40 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.701 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 4 client(s))
+13:29:43.701 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converting Java Object to any
+13:29:43.701 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converted any type org.omg.CORBA.TCKind@d44fc21
+13:29:43.701 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converting Java Object to any
+13:29:43.701 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converted any type org.omg.CORBA.TCKind@d44fc21
+13:29:43.701 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converting Java Object to any
+13:29:43.701 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converted any type org.omg.CORBA.TCKind@d44fc21
+13:29:43.701 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converting Java Object to any
+13:29:43.701 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converted any type org.omg.CORBA.TCKind@7d0587f1
+13:29:43.701 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.701 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.702 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 52 bytes to 10.135.56.57:25020
+13:29:43.702 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 84 bytes to 10.135.56.57:25020
+13:29:43.702 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 189 bytes to 10.135.56.57:25020
+13:29:43.702 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 245 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.743 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.743 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 18 bytes from 10.135.56.57:25020
+13:29:43.743 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 30 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.743 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 4 client(s))
+13:29:43.744 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.744 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.744 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 56 bytes to 10.135.56.57:25020
+13:29:43.744 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 80 bytes to 10.135.56.57:25020
+13:29:43.744 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 64 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.752 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.752 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 28 bytes from 10.135.56.57:25020
+13:29:43.752 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 40 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.752 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 4 client(s))
+13:29:43.753 [main] DEBUG com.bmc.bagdb.repository.Partition - createRelationship : creating relationship with kind test having state and roles
+13:29:43.753 [main] DEBUG com.bmc.bagdb.repository.Partition - key : node and value relationshipNode
+13:29:43.753 [main] DEBUG com.bmc.bagdb.repository.Partition - key : temp and value justForupdate
+13:29:43.753 [main] DEBUG com.bmc.bagdb.repository.Partition - key : IP and value localhost
+13:29:43.753 [main] DEBUG com.bmc.bagdb.repository.Partition - key : Host and value 9090
+13:29:43.753 [main] DEBUG com.bmc.bagdb.repository.Partition - List of roles :
+13:29:43.753 [main] DEBUG com.bmc.bagdb.repository.Partition - fromRole
+13:29:43.753 [main] DEBUG com.bmc.bagdb.repository.Partition - toRole
+13:29:43.753 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.754 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.754 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 56 bytes to 10.135.56.57:25020
+13:29:43.754 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 80 bytes to 10.135.56.57:25020
+13:29:43.754 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 64 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.759 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.759 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 28 bytes from 10.135.56.57:25020
+13:29:43.759 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 40 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.759 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 4 client(s))
+13:29:43.759 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converting Java Object to any
+13:29:43.759 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converted any type org.omg.CORBA.TCKind@d44fc21
+13:29:43.760 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converting Java Object to any
+13:29:43.760 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converted any type org.omg.CORBA.TCKind@d44fc21
+13:29:43.760 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converting Java Object to any
+13:29:43.760 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converted any type org.omg.CORBA.TCKind@d44fc21
+13:29:43.760 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converting Java Object to any
+13:29:43.760 [main] DEBUG com.bmc.bagdb.utils.CorbaJavaConverter - convertJavaObjectToAny : Converted any type org.omg.CORBA.TCKind@7d0587f1
+13:29:43.762 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.762 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.762 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 52 bytes to 10.135.56.57:25020
+13:29:43.762 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 84 bytes to 10.135.56.57:25020
+13:29:43.762 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 304 bytes to 10.135.56.57:25020
+13:29:43.762 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 360 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.798 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.798 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 18 bytes from 10.135.56.57:25020
+13:29:43.798 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 30 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.800 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 4 client(s))
+13:29:43.800 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.801 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.801 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 56 bytes to 10.135.56.57:25020
+13:29:43.801 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 80 bytes to 10.135.56.57:25020
+13:29:43.801 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 64 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.806 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.806 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 28 bytes from 10.135.56.57:25020
+13:29:43.806 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 40 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.806 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 4 client(s))
+13:29:43.811 [main] DEBUG com.bmc.bagdb.repository.BagDB - getStoreById : Fetching Store value from store id : 7610315f1500bdd87f300c17
+13:29:43.812 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.812 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.812 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 60 bytes to 10.135.56.57:25020
+13:29:43.812 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 84 bytes to 10.135.56.57:25020
+13:29:43.812 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 16 bytes to 10.135.56.57:25020
+13:29:43.812 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 80 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.818 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.818 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 259 bytes from 10.135.56.57:25020
+13:29:43.818 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 271 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.818 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 4 client(s))
+on test start
+13:29:43.828 [main] DEBUG com.bmc.bagdb.repository.Partition - getRolesOfNode: Getting node id : 7610315f1500bdd87f300c196e74657374 for Rels of Node
+13:29:43.828 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.829 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.829 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 68 bytes to 10.135.56.57:25020
+13:29:43.829 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 84 bytes to 10.135.56.57:25020
+13:29:43.829 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 21 bytes to 10.135.56.57:25020
+13:29:43.829 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 93 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.853 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.853 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 52 bytes from 10.135.56.57:25020
+13:29:43.854 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 64 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.854 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 4 client(s))
+13:29:43.854 [main] DEBUG com.bmc.bagdb.repository.Partition - stepIn: Fetching node id : 7610315f1500bdd87f300c196e74657374, Source node : fromRole, Relationship kind : test, Flags : 0 and Records Count : 1
+13:29:43.855 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.855 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.855 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 60 bytes to 10.135.56.57:25020
+13:29:43.855 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 84 bytes to 10.135.56.57:25020
+13:29:43.855 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 61 bytes to 10.135.56.57:25020
+13:29:43.855 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 125 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.862 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.862 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 68 bytes from 10.135.56.57:25020
+13:29:43.862 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 80 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.862 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 4 client(s))
+13:29:43.868 [main] DEBUG com.bmc.bagdb.repository.BagDB - getStoreById : Fetching Store value from store id : 7610315f1500bdd87f300c17
+13:29:43.868 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.868 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.868 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 60 bytes to 10.135.56.57:25020
+13:29:43.868 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 84 bytes to 10.135.56.57:25020
+13:29:43.868 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 16 bytes to 10.135.56.57:25020
+13:29:43.868 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 80 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.875 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.875 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 259 bytes from 10.135.56.57:25020
+13:29:43.875 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 271 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.875 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 4 client(s))
+13:29:43.876 [main] DEBUG com.bmc.bagdb.repository.Partition - getRolesOfRelationship: Fetching Roles of Relationships : 7610315f1500bdd87f300c1b7274657374 
+13:29:43.876 [main] INFO org.jacorb.orb.giop - ClientConnectionManager: found ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.876 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.876 [main] DEBUG org.jacorb.orb.delegate - Adding new retry group for 10.135.56.57:25020
+13:29:43.876 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.876 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 68 bytes to 10.135.56.57:25020
+13:29:43.876 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 84 bytes to 10.135.56.57:25020
+13:29:43.876 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 21 bytes to 10.135.56.57:25020
+13:29:43.876 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 93 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.882 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.882 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 127 bytes from 10.135.56.57:25020
+13:29:43.882 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 139 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.882 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 5 client(s))
+13:29:43.882 [main] DEBUG com.bmc.bagdb.repository.Partition - getRolesOfRelationship: Fetching Roles of Relationships : 7610315f1500bdd87f300c1b7274657374 
+13:29:43.882 [main] INFO org.jacorb.orb.giop - ClientConnectionManager: found ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.882 [main] DEBUG org.jacorb.orb.interceptors - created with invocationContext: {REQUEST_END_TIME=null, REPLY_END_TIME=null}
+13:29:43.882 [main] DEBUG org.jacorb.orb.delegate - Adding new retry group for 10.135.56.57:25020
+13:29:43.882 [main] DEBUG org.jacorb.giop.conn - GIOPConnection.sendMessage timeout (millis): 0
+13:29:43.882 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 68 bytes to 10.135.56.57:25020
+13:29:43.883 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 84 bytes to 10.135.56.57:25020
+13:29:43.883 [main] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - wrote 21 bytes to 10.135.56.57:25020
+13:29:43.883 [main] DEBUG org.jacorb.giop.conn - wrote GIOP message of size 93 to ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.890 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 12 bytes from 10.135.56.57:25020
+13:29:43.890 [ClientMessageReceptor0] DEBUG org.jacorb.orb.iiop.ClientIIOPConnection - read 127 bytes from 10.135.56.57:25020
+13:29:43.890 [ClientMessageReceptor0] DEBUG org.jacorb.giop.conn - read GIOP message of size 139 from ClientGIOPConnection to 10.135.56.57:25020 (64485a47)
+13:29:43.890 [main] DEBUG org.jacorb.orb.giop - ClientConnectionManager: cannot release ClientGIOPConnection to 10.135.56.57:25020 (64485a47) (still has 6 client(s))
+on test failure
+</system-out>
+  </testcase>
+  <testcase classname="NodeImplTest" name="stepIn1" time="0"/>
+  <testcase classname="QuickStartTest" name="quickStartDemoTest" time="0.247"/>
+</testsuite>
